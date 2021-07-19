@@ -1,0 +1,69 @@
+
+#head {
+    background-image: url(img/footer.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.container{
+    margin-bottom: 150px;
+    border-radius: 10px;
+    color: rgb(51, 50, 50);
+}
+.container:hover{
+    box-shadow: 0 0 40px rgb(180, 180, 180);
+    transform: scale(1.01);
+    transition: .2s;
+}
+.row{
+    align-items: center;
+    text-align: center;
+}
+.ggg h3, p{
+    margin: 25px;
+}
+.ggg img{
+    margin: 10px;
+    width: 90%;
+}
+
+#testimonials{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#testimonials img{
+    width: 25%;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: -300px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.review{
+    font-size: 18px;
+    padding: 10px;
+    box-shadow: 5px 5px 40px rgb(163, 162, 162);
+}
+.review .fa-facebook{
+    color: rgb(50, 50, 201);
+}
+.bottom{
+    background-image: linear-gradient(rgba(29, 29, 29, 0.5),rgba(29, 29, 29, 0.5)
+    ),url(img/img1.jpg);
+    height: 300px;
+    width: 100%;
+    margin: 2px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.social-icon{
+   font-size: 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.fab {
+    color: rgb(29, 17, 136);
+    margin: 5px;
+}
